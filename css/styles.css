@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main .logo {
+  width: 200px;
+  position: absolute;
+  margin: 20px;
+}
+.main .logo img {
+  width: 100%;
+}
+.main .maintenance {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.main .maintenance__text {
+  width: 40%;
+}
+.main .maintenance__text .content {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.main .maintenance__text .content h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+.main .maintenance__text .content span {
+  color: #8ec641;
+}
+.main .maintenance__text .content p {
+  font-size: 1.2rem;
+}
+.main .maintenance__img {
+  width: 60%;
+  height: 100%;
+  background: url("../img/vector-green.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .maintenance__img .main-img {
+  width: 1020px;
+}
+.main .maintenance__img .main-img img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
